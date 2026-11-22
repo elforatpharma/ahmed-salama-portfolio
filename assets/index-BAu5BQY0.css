@@ -151,12 +151,10 @@
   }
 }
 
-/* Phone screens only: final portrait and Spider-Man adjustments. */
+/* HONOR 400 Lite only (model ABR-NX1 / ABR-NX3): raise and enlarge Spider-Man.
+   The device class is added by the model check in index.html. */
 @media (max-width: 767px) {
-  .about-person-image {
-    transform: translate(calc(-2% + 70px), -23px) scale(.82) !important;
-  }
-  .about-spider-image {
+  .honor-400-lite-device .about-spider-image {
     width: calc(100% + 24px) !important;
     height: calc(100% + 24px) !important;
     transform: translate(calc(-2% + 70px), -75px) scale(.82) !important;
