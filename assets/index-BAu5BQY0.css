@@ -12,3 +12,7 @@
 /* Nudge the About Me portrait slightly to the left. */
 .about-person-image,.about-spider-image{transform:translateX(-2%) scale(.82)!important;}
 @media (width<=620px){.about-person-image,.about-spider-image{transform:translateX(-2%) scale(.82)!important;}}
+
+/* Raise only the Spider-Man reveal layer slightly above the portrait. */
+.about-spider-image{transform:translate(-2%,-22px) scale(.82)!important;}
+@media (width<=620px){.about-spider-image{transform:translate(-2%,-22px) scale(.82)!important;}}
