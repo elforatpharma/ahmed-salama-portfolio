@@ -1,0 +1,42 @@
+{
+  "source": "https://www.alfari.my.id/",
+  "downloaded": [
+    "https://www.alfari.my.id/",
+    "https://www.alfari.my.id/assets/index-JraU3a1h.js",
+    "https://www.alfari.my.id/assets/index-BAu5BQY0.css",
+    "https://www.alfari.my.id/assets/Lanyard-BTRBc1_I.js",
+    "https://www.alfari.my.id/assets/me2-Co3h_2mC.webp",
+    "https://www.alfari.my.id/assets/PhotoSpiderman-SN9X5pZn.png",
+    "https://www.alfari.my.id/assets/texmaco-B00jrVkH.webp",
+    "https://www.alfari.my.id/assets/masamujaya-DBL6wGFy.webp",
+    "https://www.alfari.my.id/assets/stekom-D6gc1_dt.webp",
+    "https://www.alfari.my.id/_vercel/insights/script.js",
+    "https://www.alfari.my.id/assets/preloadPortfolioAssets-D6d7UHb-.js",
+    "https://www.alfari.my.id/_vercel/insights/view",
+    "https://www.alfari.my.id/assets/frontCard-DQ4fSPkM.webp",
+    "https://www.alfari.my.id/assets/backCard-Bo2y2rAo.webp",
+    "https://www.alfari.my.id/assets/bandd-BJD7tjO5.webp",
+    "https://www.alfari.my.id/favicon.png",
+    "https://www.alfari.my.id/assets/frontCard-mobile-C8YwpHxE.webp",
+    "https://www.alfari.my.id/assets/backCard-mobile-56-GGf7R.webp",
+    "https://www.alfari.my.id/assets/PhotoSpiderman-mobile-CoSy5kXK.webp",
+    "https://www.alfari.my.id/assets/texmaco-mobile-DuwuXBjF.webp",
+    "https://www.alfari.my.id/assets/masamujaya-mobile-qf_bfyIh.webp",
+    "https://www.alfari.my.id/assets/stekom-mobile-GLsarmu6.webp",
+    "https://www.alfari.my.id/favicon.svg",
+    "https://www.alfari.my.id/#Home",
+    "https://www.alfari.my.id/#About",
+    "https://www.alfari.my.id/#Portofolio",
+    "https://www.alfari.my.id/#Contact",
+    "https://www.alfari.my.id/assets/cyberGyzn-mobile-CO52Ksa9.webp",
+    "https://www.alfari.my.id/assets/botArtikel-mobile-D5kiU3hs.webp",
+    "https://www.alfari.my.id/assets/dataSiswa-mobile-BInbeI1D.webp",
+    "https://www.alfari.my.id/assets/tiktok-anoPp0Hh.svg"
+  ],
+  "errors": [
+    {
+      "url": "https://www.alfari.my.id/_vercel/insights/view",
+      "error": "Error: 404"
+    }
+  ]
+}
