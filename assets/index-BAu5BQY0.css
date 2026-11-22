@@ -99,3 +99,7 @@
 
 /* Move Spider-Man 38px downward on mobile only; preserve desktop position and scale. */
 @media (width<=620px){.about-spider-image{transform:translate(-2%,-130px) scale(1)!important;}}
+
+
+/* Reduce Spider-Man reveal dimensions by 38px on mobile only; preserve its position and desktop size. */
+@media (width<=620px){.about-spider-image{width:calc(100% - 38px)!important;height:calc(100% - 38px)!important;}}
