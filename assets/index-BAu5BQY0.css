@@ -131,3 +131,7 @@
 
 /* Move portrait and Spider-Man 20px left and 30px up on mobile only; preserve both sizes and desktop layout. */
 @media (width<=620px){.about-person-image{transform:translate(calc(-2% + 70px),10px) scale(.82)!important;}.about-spider-image{transform:translate(calc(-2% + 94px),-36px) scale(1)!important;}}
+
+
+/* Reduce the desktop-only gap between About Me and Education & Experience; keep tablet/mobile spacing unchanged. */
+@media (width>=901px){.about-root-section{min-height:calc(100svh - 40px);padding-bottom:50px}.experience-section{padding-top:50px}}
