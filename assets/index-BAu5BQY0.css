@@ -87,3 +87,7 @@
 /* Raise the Spider-Man reveal by 10px while preserving size and horizontal position. */
 .about-spider-image{transform:translate(-2%,-168px) scale(1)!important;}
 @media (width<=620px){.about-spider-image{transform:translate(-2%,-168px) scale(1)!important;}}
+
+
+/* Raise only the personal portrait by 120px on mobile; preserve its size and horizontal position. */
+@media (width<=620px){.about-person-image{transform:translate(-2%,-120px) scale(.82)!important;}}
