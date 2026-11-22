@@ -193,3 +193,16 @@
   }
 }
 
+
+/* Skills section */
+.skills-section{position:relative;padding:clamp(64px,8vw,108px) 24px;background:linear-gradient(180deg,#050510 0%,#070d19 50%,#050510 100%);scroll-margin-top:90px}
+.skills-container{width:min(1120px,100%);margin:0 auto}
+.skills-intro{max-width:680px;margin:-12px auto 38px;text-align:center;color:#aeb8cc;font-size:1.02rem;line-height:1.7}
+.skills-groups-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.skills-group-card{padding:24px;background:linear-gradient(135deg,#121b2ce6,#0c1320e0);border:1px solid #94a3b81f;border-radius:18px;box-shadow:inset 0 1px #ffffff08}
+.skills-group-card h3{margin:0 0 18px;color:#f5f7ff;font-size:1.12rem;font-weight:750}
+.skills-chip-list{display:flex;flex-wrap:wrap;gap:10px}
+.skill-chip{display:inline-flex;align-items:center;padding:8px 12px;border:1px solid #60a5fa35;border-radius:999px;background:#1e3a5f45;color:#dbeafe;font-size:.88rem;line-height:1.35}
+.experience-section{scroll-margin-top:90px}
+.experience-logo-text{border:1px solid #60a5fa35;border-radius:16px;background:linear-gradient(135deg,#1e3a5f,#14233a);color:#bfdbfe;font-size:1rem;font-weight:800;letter-spacing:-.04em}
+@media(max-width:700px){.skills-section{padding:58px 18px}.skills-groups-grid{grid-template-columns:1fr;gap:14px}.skills-group-card{padding:20px}.experience-card{align-items:flex-start;gap:12px;padding:14px}.experience-logo{flex-basis:48px;width:48px;height:48px;flex-shrink:0}.experience-card-copy p{font-size:.9rem}}
