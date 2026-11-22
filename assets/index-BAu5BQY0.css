@@ -8,3 +8,7 @@
 /* About portrait: keep the full photo visible at a smaller scale on desktop and mobile. */
 .about-person-image,.about-spider-image{width:100%!important;height:100%!important;object-fit:contain!important;object-position:center bottom!important;transform:scale(.82)!important;transform-origin:center bottom!important;}
 @media (width<=620px){.about-person-image,.about-spider-image{transform:scale(.82)!important;}}
+
+/* Nudge the About Me portrait slightly to the left. */
+.about-person-image,.about-spider-image{transform:translateX(-2%) scale(.82)!important;}
+@media (width<=620px){.about-person-image,.about-spider-image{transform:translateX(-2%) scale(.82)!important;}}
