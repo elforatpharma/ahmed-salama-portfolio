@@ -48,3 +48,8 @@
 /* Raise Spider-Man reveal by 60px more, preserving scale and horizontal position. */
 .about-spider-image{transform:translate(-2%,-158px) scale(1)!important;}
 @media (width<=620px){.about-spider-image{transform:translate(-2%,-158px) scale(1)!important;}}
+
+
+/* Slightly crop the bottom edge of the personal portrait without changing Spider-Man. */
+.about-person-image{clip-path:inset(0 0 24px 0)!important;}
+@media (width<=620px){.about-person-image{clip-path:inset(0 0 18px 0)!important;}}
