@@ -3,3 +3,8 @@
 .mti-university-logo{flex:0 0 82px;width:82px;height:82px;padding:5px;box-sizing:border-box;border:2px solid #fff;border-radius:14px;background:#fff;overflow:hidden}.mti-university-logo img{mix-blend-mode:normal;filter:saturate(1.4) contrast(1.08)}
 
 .experience-group:first-child .experience-card:nth-of-type(-n+3) .experience-logo{flex:0 0 82px;width:82px;height:82px;padding:5px;box-sizing:border-box;border:2px solid #fff;border-radius:14px;background:#fff;overflow:hidden}
+
+
+/* About portrait: keep the full photo visible at a smaller scale on desktop and mobile. */
+.about-person-image,.about-spider-image{width:100%!important;height:100%!important;object-fit:contain!important;object-position:center bottom!important;transform:scale(.82)!important;transform-origin:center bottom!important;}
+@media (width<=620px){.about-person-image,.about-spider-image{transform:scale(.82)!important;}}
