@@ -150,3 +150,15 @@
     margin-left:-60px!important;
   }
 }
+
+/* Phone screens only: final portrait and Spider-Man adjustments. */
+@media (max-width: 767px) {
+  .about-person-image {
+    transform: translate(calc(-2% + 70px), -23px) scale(.82) !important;
+  }
+  .about-spider-image {
+    width: calc(100% + 24px) !important;
+    height: calc(100% + 24px) !important;
+    transform: translate(calc(-2% + 70px), -75px) scale(.82) !important;
+  }
+}
