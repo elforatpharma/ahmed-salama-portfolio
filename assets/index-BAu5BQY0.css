@@ -210,6 +210,3 @@
 .experience-group:nth-child(2) .education-logo-frame{flex:0 0 82px;width:82px;height:82px;padding:5px;box-sizing:border-box;border:2px solid #fff;border-radius:14px;background:#fff;overflow:hidden}
 
 .experience-group:nth-child(2) .prime-physio-blue-logo img{filter:brightness(0) saturate(100%) invert(39%) sepia(91%) saturate(2450%) hue-rotate(205deg) brightness(101%) contrast(101%)}
-
-/* Keep the portfolio contact area personal; remove public comments UI. */
-.contact-comments-panel{display:none!important}
