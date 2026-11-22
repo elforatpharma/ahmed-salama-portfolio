@@ -20,3 +20,7 @@
 /* Double the Spider-Man reveal layer size while keeping its raised position. */
 .about-spider-image{transform:translate(-2%,-22px) scale(1.64)!important;}
 @media (width<=620px){.about-spider-image{transform:translate(-2%,-22px) scale(1.64)!important;}}
+
+/* Set the Spider-Man reveal back to its single-size scale. */
+.about-spider-image{transform:translate(-2%,-22px) scale(.82)!important;}
+@media (width<=620px){.about-spider-image{transform:translate(-2%,-22px) scale(.82)!important;}}
