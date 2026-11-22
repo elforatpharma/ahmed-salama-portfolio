@@ -78,3 +78,7 @@
 /* Additional portrait crop: total 213px desktop and 114px mobile. */
 .about-person-image{clip-path:inset(0 0 213px 0)!important;}
 @media (width<=620px){.about-person-image{clip-path:inset(0 0 114px 0)!important;}}
+
+
+/* Shift the portrait and Spider-Man reveal left together by exactly 60px. */
+.about-person-image,.about-spider-image{margin-left:-60px!important;}
