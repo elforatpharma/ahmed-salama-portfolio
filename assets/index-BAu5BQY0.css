@@ -24,3 +24,7 @@
 /* Set the Spider-Man reveal back to its single-size scale. */
 .about-spider-image{transform:translate(-2%,-22px) scale(.82)!important;}
 @media (width<=620px){.about-spider-image{transform:translate(-2%,-22px) scale(.82)!important;}}
+
+/* Increase the Spider-Man reveal slightly from its current single-size setting. */
+.about-spider-image{transform:translate(-2%,-22px) scale(1)!important;}
+@media (width<=620px){.about-spider-image{transform:translate(-2%,-22px) scale(1)!important;}}
