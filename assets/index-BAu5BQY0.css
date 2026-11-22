@@ -58,3 +58,8 @@
 /* Updated portrait crop: 55px desktop and 26px mobile. */
 .about-person-image{clip-path:inset(0 0 55px 0)!important;}
 @media (width<=620px){.about-person-image{clip-path:inset(0 0 26px 0)!important;}}
+
+
+/* Additional portrait crop: total 110px desktop and 52px mobile. */
+.about-person-image{clip-path:inset(0 0 110px 0)!important;}
+@media (width<=620px){.about-person-image{clip-path:inset(0 0 52px 0)!important;}}
