@@ -82,3 +82,8 @@
 
 /* Shift the portrait and Spider-Man reveal left together by exactly 60px. */
 .about-person-image,.about-spider-image{margin-left:-60px!important;}
+
+
+/* Raise the Spider-Man reveal by 10px while preserving size and horizontal position. */
+.about-spider-image{transform:translate(-2%,-168px) scale(1)!important;}
+@media (width<=620px){.about-spider-image{transform:translate(-2%,-168px) scale(1)!important;}}
