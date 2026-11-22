@@ -48,3 +48,7 @@
 /* Raise Spider-Man reveal by 60px more, preserving scale and horizontal position. */
 .about-spider-image{transform:translate(-2%,-158px) scale(1)!important;}
 @media (width<=620px){.about-spider-image{transform:translate(-2%,-158px) scale(1)!important;}}
+
+/* Keep the Spider-Man overlay aligned through the lower body after raising it. Extend the layer upward while anchoring its bottom edge to the portrait. */
+.about-spider-image{height:calc(100vh + 158px)!important;top:-158px!important;transform:translateX(-2%) scale(1)!important;object-position:center bottom!important;}
+@media (width<=620px){.about-spider-image{height:calc(100% + 158px)!important;top:-158px!important;transform:scale(1.55)!important;object-position:center bottom!important;}}
