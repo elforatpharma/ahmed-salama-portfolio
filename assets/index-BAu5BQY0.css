@@ -127,3 +127,7 @@
 
 /* Move both the portrait and Spider-Man 90px right and 90px down on mobile only; preserve their current sizes and desktop layout. */
 @media (width<=620px){.about-person-image{transform:translate(calc(-2% + 90px),40px) scale(.82)!important;}.about-spider-image{transform:translate(calc(-2% + 114px),-6px) scale(1)!important;}}
+
+
+/* Move portrait and Spider-Man 20px left and 30px up on mobile only; preserve both sizes and desktop layout. */
+@media (width<=620px){.about-person-image{transform:translate(calc(-2% + 70px),10px) scale(.82)!important;}.about-spider-image{transform:translate(calc(-2% + 94px),-36px) scale(1)!important;}}
