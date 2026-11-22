@@ -53,3 +53,8 @@
 /* Slightly crop the bottom edge of the personal portrait without changing Spider-Man. */
 .about-person-image{clip-path:inset(0 0 24px 0)!important;}
 @media (width<=620px){.about-person-image{clip-path:inset(0 0 18px 0)!important;}}
+
+
+/* Updated portrait crop: 55px desktop and 26px mobile. */
+.about-person-image{clip-path:inset(0 0 55px 0)!important;}
+@media (width<=620px){.about-person-image{clip-path:inset(0 0 26px 0)!important;}}
