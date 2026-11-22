@@ -111,3 +111,7 @@
 
 /* Shift Spider-Man 24px to the right on mobile only; preserve vertical position, size, and desktop layout. */
 @media (width<=620px){.about-spider-image{transform:translate(calc(-2% + 24px),-106px) scale(1)!important;}}
+
+
+/* Shift Spider-Man 9px left from the previous mobile-only position; preserve vertical position, size, and desktop layout. */
+@media (width<=620px){.about-spider-image{transform:translate(calc(-2% + 15px),-106px) scale(1)!important;}}
