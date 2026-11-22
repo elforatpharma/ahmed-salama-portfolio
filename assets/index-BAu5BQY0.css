@@ -40,3 +40,7 @@
 /* Raise Spider-Man reveal by another small step without resizing it. */
 .about-spider-image{transform:translate(-2%,-58px) scale(1)!important;}
 @media (width<=620px){.about-spider-image{transform:translate(-2%,-58px) scale(1)!important;}}
+
+/* Raise Spider-Man reveal by 40px more, preserving scale and horizontal position. */
+.about-spider-image{transform:translate(-2%,-98px) scale(1)!important;}
+@media (width<=620px){.about-spider-image{transform:translate(-2%,-98px) scale(1)!important;}}
