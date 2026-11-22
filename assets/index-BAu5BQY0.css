@@ -91,3 +91,7 @@
 
 /* Raise only the personal portrait by 120px on mobile; preserve its size and horizontal position. */
 @media (width<=620px){.about-person-image{transform:translate(-2%,-120px) scale(.82)!important;}}
+
+
+/* Move the personal portrait 70px downward from its previous mobile-only position. */
+@media (width<=620px){.about-person-image{transform:translate(-2%,-50px) scale(.82)!important;}}
