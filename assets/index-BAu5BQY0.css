@@ -170,7 +170,7 @@
   .about-spider-image {
     width: calc(100% + 21px) !important;
     height: calc(100% + 21px) !important;
-    transform: translate(calc(-2% + 39px), -151px) scale(1) !important;
+    transform: translate(calc(-2% + 54px), -127px) scale(1) !important;
   }
 }
 @media (min-width: 621px) and (max-width: 767px) {
@@ -180,7 +180,7 @@
   .about-spider-image {
     width: calc(100% + 45px) !important;
     height: calc(100% + 45px) !important;
-    transform: translate(calc(-2% + 109px), -283px) scale(1) !important;
+    transform: translate(calc(-2% + 124px), -259px) scale(1) !important;
   }
 }
 /* Preserve the existing HONOR-specific Spider-Man tuning, then apply the new
@@ -189,7 +189,7 @@
   .honor-400-lite-device .about-spider-image {
     width: calc(100% + 90px) !important;
     height: calc(100% + 90px) !important;
-    transform: translate(calc(-2% + 85px), -305px) scale(.82) !important;
+    transform: translate(calc(-2% + 100px), -281px) scale(.82) !important;
   }
 }
 
