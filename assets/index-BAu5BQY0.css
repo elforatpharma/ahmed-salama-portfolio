@@ -95,3 +95,7 @@
 
 /* Move the personal portrait 70px downward from its previous mobile-only position. */
 @media (width<=620px){.about-person-image{transform:translate(-2%,-50px) scale(.82)!important;}}
+
+
+/* Move Spider-Man 38px downward on mobile only; preserve desktop position and scale. */
+@media (width<=620px){.about-spider-image{transform:translate(-2%,-130px) scale(1)!important;}}
