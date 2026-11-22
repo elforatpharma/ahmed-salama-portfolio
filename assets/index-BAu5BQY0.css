@@ -135,3 +135,18 @@
 
 /* Reduce the desktop-only gap between About Me and Education & Experience; keep tablet/mobile spacing unchanged. */
 @media (width>=901px){.about-root-section{min-height:calc(100svh - 40px);padding-bottom:50px}.experience-section{padding-top:50px}}
+
+
+/* HONOR 400 Lite: keep the Spider-Man layer registered to the portrait on real mobile viewports. */
+@media (max-width: 767px){
+  .about-person-image,
+  .about-spider-image{
+    width:100%!important;
+    height:100%!important;
+    object-fit:contain!important;
+    object-position:center bottom!important;
+    transform:translate(calc(-2% + 70px),10px) scale(.82)!important;
+    transform-origin:center bottom!important;
+    margin-left:-60px!important;
+  }
+}
