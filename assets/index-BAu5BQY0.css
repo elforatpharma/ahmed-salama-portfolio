@@ -32,3 +32,7 @@
 /* Raise Spider-Man reveal a little more without changing its size. */
 .about-spider-image{transform:translate(-2%,-34px) scale(1)!important;}
 @media (width<=620px){.about-spider-image{transform:translate(-2%,-34px) scale(1)!important;}}
+
+/* Move Spider-Man reveal slightly higher, keeping its current scale. */
+.about-spider-image{transform:translate(-2%,-46px) scale(1)!important;}
+@media (width<=620px){.about-spider-image{transform:translate(-2%,-46px) scale(1)!important;}}
